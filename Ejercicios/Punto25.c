@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&ht);
     printf("Ingrese los anios de antiguedad que tiene en la empresa: ");
     scanf("%d",&aa);
-    pa=ht*90;
+    pa=aa*90;
     sh=4500*ht;
     sn=pa+sh;
     printf("Su sueldo neto es de %d", sn);
